@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Restaurant &amp; Bar</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M21,9 L21,11 C21,11.97 20.41,12.59 19.42,12.82 C19.76,13.38 20,13.95 20,14.5 C20,15.8807119 18.8807119,17 17.5,17 C16.1192881,17 15,15.8807119 15,14.5 C15,13.95 15.24,13.38 15.58,12.82 C14.59,12.59 14,11.97 14,11 L14,9 L21,9 Z M18,2 L16,2 L16,7 L18,7 L18,2 Z M13,2 L11,2 L11,7 L13,7 L13,2 Z M8,8 L8,5.5 C8,4.67 8.67,4 9.5,4 C10.33,4 11,4.67 11,5.5 L11,8 L8,8 Z M9,12 L9,21 L7,21 L7,12 L5,12 L5,21 L3,21 L3,12 L1,12 L1,10 L11,10 L11,12 L9,12 Z" fill="#e74c3c" fill-rule="nonzero"></path>
+    </g>
+</svg>

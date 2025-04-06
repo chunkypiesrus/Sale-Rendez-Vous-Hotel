@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Penthouse Suite</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M17,16 L17,14 L19,14 L19,16 L21,16 L21,14 L23,14 L23,16 L23,18 L23,20 L15,20 L15,18 L15,16 L17,16 Z M1,22 L1,12 L10,12 L10,22 L1,22 Z M3,20 L8,20 L8,14 L3,14 L3,20 Z M12,9 L12,2 L22,2 L22,9 L12,9 Z M14,7 L20,7 L20,4 L14,4 L14,7 Z M5,10 L5,3 L10,3 L10,5 L7,5 L7,10 L5,10 Z" fill="#9b59b6" fill-rule="nonzero"></path>
+    </g>
+</svg>
