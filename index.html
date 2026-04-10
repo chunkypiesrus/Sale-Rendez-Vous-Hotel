@@ -815,7 +815,7 @@
 <div class="cta-strip">
     <div class="container">
         <p>Ready to see the numbers in person?</p>
-        <a href="#contact" class="btn btn-primary">Request a Private Tour</a>
+        <a href="#contact" class="btn btn-primary">Request a Private Viewing</a>
     </div>
 </div>
 
@@ -1083,7 +1083,7 @@
         <div class="contact-grid">
             <div class="contact-form-wrap">
                 <form id="contactForm" action="https://formsubmit.co/RendezVousHotel@proton.me" method="POST" class="contact-form">
-                    <input type="hidden" name="_subject" value="Private Tour Request — Rendez Vous Hotel">
+                    <input type="hidden" name="_subject" value="Private Viewing Request — Rendez Vous Hotel">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="">
                     <input type="text" name="_honey" style="display:none">
@@ -1107,7 +1107,7 @@
                         <label for="message">Tell us when you'd like to visit *</label>
                         <textarea id="message" name="message" rows="4" placeholder="I'd like to arrange a viewing of the Rendez Vous Hotel.." required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Request a Private Tour</button>
+                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Request a Private Viewing</button>
                     <p class="form-note" id="formNote"></p>
                 </form>
             </div>
@@ -1125,7 +1125,7 @@
                 </div>
                 <div class="contact-card">
                     <h3>Flexible Viewing</h3>
-                    <p>In-person tours by appointment. We can also arrange virtual walk-throughs via video call for international buyers.</p>
+                    <p>In-person viewings by appointment. We can also arrange virtual viewings via video call for international buyers.</p>
                 </div>
                 <div class="contact-card">
                     <h3>Full Disclosure on Request</h3>
@@ -1235,11 +1235,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     throw new Error('Form submission failed');
                 }
-                submitBtn.textContent = 'Request a Private Tour';
+                submitBtn.textContent = 'Request a Private Viewing';
                 submitBtn.disabled = false;
             }
         } catch {
-            submitBtn.textContent = 'Request a Private Tour';
+            submitBtn.textContent = 'Request a Private Viewing';
             submitBtn.disabled = false;
             formNote.textContent = 'Something went wrong. Please try again or contact us directly.';
             formNote.style.color = '#e74c3c';
