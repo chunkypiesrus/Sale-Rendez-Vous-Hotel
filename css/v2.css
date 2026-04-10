@@ -664,4 +664,16 @@ ul { list-style: none; }
     .features-grid { grid-template-columns: 1fr; }
     .metrics-row { grid-template-columns: 1fr 1fr; }
     .hero-stats { flex-wrap: wrap; justify-content: center; gap: 0.6rem 1rem; }
+    .overview-details { grid-template-columns: 1fr; }
+    .rating-bars { display: none; }
+    .rating-card-featured { padding: 1rem; }
+    .location-details { gap: 1rem; }
+    .room-rates { flex-direction: column; gap: 0.5rem; }
+    .gallery-grid { grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    .gallery-item { height: 160px; }
+    .gallery-large, .gallery-wide { grid-column: span 1; height: 160px; }
+    .section { padding: 3rem 0; }
+    .section-title { font-size: 1.6rem; }
+    .hero-badges { display: none; }
+    .roi-scenario { grid-template-columns: 1fr; }
 }
