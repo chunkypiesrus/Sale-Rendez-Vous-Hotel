@@ -186,7 +186,7 @@ ul { list-style: none; }
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: url('../images/exterior/hero.jpg') center/cover no-repeat;
+    background: url('../images/exterior/hero.webp') center/cover no-repeat;
 }
 .hero-overlay {
     position: absolute;
