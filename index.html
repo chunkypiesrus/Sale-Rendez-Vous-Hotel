@@ -1082,7 +1082,11 @@
         </div>
         <div class="contact-grid">
             <div class="contact-form-wrap">
-                <form id="contactForm" action="https://formspree.io/f/xpwzgkvl" method="POST" class="contact-form">
+                <form id="contactForm" action="https://formsubmit.co/RendezVousHotel@proton.me" method="POST" class="contact-form">
+                    <input type="hidden" name="_subject" value="Private Tour Request — Rendez Vous Hotel">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="">
+                    <input type="text" name="_honey" style="display:none">
                     <input type="hidden" name="_subject" value="Rendez Vous Hotel — Viewing Inquiry">
                     <input type="hidden" name="_next" value="">
                     <div class="form-row">
@@ -1225,7 +1229,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 formNote.textContent = 'Thank you — we\'ll be in touch shortly.';
                 formNote.style.color = '#27ae60';
             } else {
-                throw new Error('Form submission failed');
+                const data = await response.json();
+                if (data.error && data.error.includes('confirm')) {
+                    formNote.textContent = 'Form is awaiting email verification. Please check proton.me inbox.';
+                } else {
+                    throw new Error('Form submission failed');
+                }
+                submitBtn.textContent = 'Request a Private Tour';
+                submitBtn.disabled = false;
             }
         } catch {
             submitBtn.textContent = 'Request a Private Tour';
