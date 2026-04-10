@@ -105,7 +105,7 @@ ul { list-style: none; }
     transition: color 0.3s;
 }
 .nav.scrolled .nav-logo { color: #1a1a2e; }
-.nav-logo span:first-child { color: #1a5276; }
+.nav-logo span:first-child { color: #fff; }
 .nav.scrolled .nav-logo span:first-child { color: #1a5276; }
 .nav-links { display: flex; gap: 2rem; align-items: center; }
 .nav-links a {
