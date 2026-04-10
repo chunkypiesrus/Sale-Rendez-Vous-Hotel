@@ -7,7 +7,7 @@
     <meta name="description" content="Exclusive sale opportunity: 16-room boutique hotel with restaurant/bar in Patong Beach, Phuket. Steps from the beach, proven revenue, ฿25,000,000 asking price. TripAdvisor 4.5/5 — #1 Specialty Lodging in Patong.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9.40,300;0,9.40,400;0,9.40,500;0,9.40,600;0,9.40,700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="preload" as="image" href="images/exterior/hero.jpg">
     <link rel="stylesheet" href="css/v2.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3/dist/css/glightbox.min.css" media="print" onload="this.media='all'">
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": ["LocalBusiness", "LodgingBusiness"],
         "name": "Rendez Vous Hotel",
-        "description": "16-room boutique hotel with restaurant, bar and penthouse suite for sale in Patong Beach, Phuket, Thailand. TripAdvisor 4.5/5 — #1 of 22 Specialty Lodging. Pet-friendly.",
+        "description": "16-room boutique hotel with restaurant, bar and penthouse suite for sale in Patong Beach, Phuket, Thailand. TripAdvisor 4.5/5 — #1 of 22 Specialty Lodging.",
         "image": [
             "https://rendezvoushotelphuket.com/images/exterior/hero.jpg",
             "https://rendezvoushotelphuket.com/images/penthouse/terrace.jpg",
@@ -66,7 +66,7 @@
         "@context": "https://schema.org",
         "@type": "RealEstateListing",
         "name": "Rendez Vous Hotel — Patong Beach, Phuket",
-        "description": "16-room boutique hotel for sale. Restaurant, bar, penthouse suite. ฿25,000,000. TripAdvisor 4.5/5 — #1 Specialty Lodging in Patong. Pet-friendly.",
+        "description": "16-room boutique hotel for sale. Restaurant, bar, penthouse suite. ฿25,000,000. TripAdvisor 4.5/5 — #1 Specialty Lodging in Patong.",
         "datePosted": "2026-03-01",
         "url": "https://rendezvoushotelphuket.com",
         "areaServed": {
@@ -142,7 +142,6 @@
         <div class="hero-badges">
             <span class="hero-badge">⭐ TripAdvisor 4.5/5</span>
             <span class="hero-badge">🏆 #1 of 22 in Patong</span>
-            <span class="hero-badge">🐾 Pet-Friendly</span>
         </div>
         <div class="hero-stats">
             <div class="hero-stat">
@@ -176,7 +175,7 @@
         <div class="section-header">
             <p class="section-label">The Property</p>
             <h2 class="section-title">A Turnkey Investment in Prime Phuket</h2>
-            <p class="section-desc">The Rendez Vous Hotel is a fully operational 16-room boutique hotel located on a private, secure street just 420 metres from Patong Beach. TripAdvisor 4.5/5 (#1 of 22 Specialty Lodging), Agoda 9.3 Exceptional, pet-friendly. Walk in, take the keys, start earning.</p>
+            <p class="section-desc">The Rendez Vous Hotel is a fully operational 16-room boutique hotel located on a private, secure street just 420 metres from Patong Beach. TripAdvisor 4.5/5 (#1 of 22 Specialty Lodging), Agoda 9.3 Exceptional. Walk in, take the keys, start earning.</p>
         </div>
         <div class="features-grid">
             <div class="feature-card">
@@ -203,11 +202,6 @@
                 <div class="feature-icon">🏆</div>
                 <h3>TripAdvisor #1 in Patong</h3>
                 <p>4.5/5 rating, #1 of 22 Specialty Lodging. Also rated 9.3 on Agoda (Exceptional), 8.7/10 on Kayak, 4.0 on Expedia. An established brand with loyal guests.</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🐾</div>
-                <h3>Pet-Friendly</h3>
-                <p>One of the few pet-friendly hotels in Patong. Pet supplement: ฿100/night per pet. A differentiator that attracts a growing market segment.</p>
             </div>
         </div>
         <div class="overview-details">
@@ -601,7 +595,6 @@
                     <li>🎵 Live music bar</li>
                     <li>☕ Coffee shop</li>
                     <li>🍽️ Restaurant (local &amp; international cuisine)</li>
-                    <li>🐾 Pet-friendly (฿100/night per pet)</li>
                 </ul>
             </div>
             <div class="amenity-group">
@@ -1142,7 +1135,7 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Tell us when you'd like to visit *</label>
-                        <textarea id="message" name="message" rows="4" placeholder="I'd like to arrange a viewing of the Rendez Vous Hotel..." required></textarea>
+                        <textarea id="message" name="message" rows="4" placeholder="I'd like to arrange a viewing of the Rendez Vous Hotel.." required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Request a Private Tour</button>
                     <p class="form-note" id="formNote"></p>
@@ -1246,7 +1239,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        submitBtn.textContent = 'Sending...';
+        submitBtn.textContent = 'Sending..';
         submitBtn.disabled = true;
 
         try {
